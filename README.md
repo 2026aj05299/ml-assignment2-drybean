@@ -1,7 +1,7 @@
 # Dry Bean Variety Classification — ML Assignment 2
 
 **Student:** Chaudhari Sandip Chandrakant Mamta  **BITS ID:** 2026AJ05296
-**Live app:** <STREAMLIT_APP_URL>
+**Live app:** https://<your-app-url>.streamlit.app
 
 ## a. Problem statement
 
