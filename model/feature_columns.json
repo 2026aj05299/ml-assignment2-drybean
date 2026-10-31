@@ -1,0 +1,57 @@
+{
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "target": "Class",
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "best_params": {
+    "Logistic Regression": {
+      "C": 10.0
+    },
+    "Decision Tree": {
+      "max_depth": 10,
+      "min_samples_leaf": 5
+    },
+    "KNN": {
+      "n_neighbors": 21,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.001
+    },
+    "Support Vector Machine": {
+      "C": 10.0,
+      "gamma": "scale"
+    }
+  },
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "support_vector_machine.joblib"
+  }
+}
